@@ -71,3 +71,41 @@ nav	{
 .content-marq {
 	font-size: 20px;
 }
+
+.news {
+	width: 100%;
+	background-color: #E4F1FE;
+	display: flex;
+	padding: 10px;
+}
+
+.news-block {
+	width: 300px;
+	margin: 10px;
+}
+
+.news-block__name {
+	display: flex;
+	height: 50px;
+	background-color: #333;
+	color: #fff;
+}
+
+.news-block__date {
+	display: flex;
+	height: 20px;
+	background-color: #22313F;
+	color: #fff;
+}
+
+
+.news-block__text {
+	width: 300px;
+	min-height: 100px;
+	display: flex;
+	background-color: #fff;
+}
+
+.news-block__name *, .news-block__date *, .news-block__text * {
+	margin: auto;
+}
