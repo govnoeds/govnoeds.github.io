@@ -76,6 +76,7 @@ nav	{
 	width: 100%;
 	background-color: #E4F1FE;
 	display: flex;
+	flex-direction: column;
 	padding: 10px;
 }
 
